@@ -59,7 +59,6 @@ def solution(m, n, board):
         for i2 in list:
             i, j = i2[0], i2[1]
             x2[i][j], x2[i][j + 1], x2[i + 1][j], x2[i + 1][j + 1] = '팡!', '팡!', '팡!', '팡!'
-
         for i3 in range(m):
             for i in range(m - 1):
                 for j in range(n):
